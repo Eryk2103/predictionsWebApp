@@ -1,0 +1,3 @@
+<template>
+    predictions
+</template>

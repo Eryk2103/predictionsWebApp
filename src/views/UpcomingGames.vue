@@ -1,0 +1,3 @@
+<template>
+    upcoming games
+</template>
