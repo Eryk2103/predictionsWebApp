@@ -11,25 +11,25 @@ const changeMenu = () =>{
 </script>
 
 <template>
-<div class="header">
-    <Menu class="icon" @click="changeMenu()"></Menu>
-    <nav class="nav" v-show="showMenu">
-        <div class="header">
-            <Cross class="icon" @click="changeMenu()"></Cross>
-        </div>
-        <ul class="links">
-            <li class="links__item" @click="changeMenu()">
-                <RouterLink class="link" :to="{name: 'dashboard'}">dashboard</RouterLink>
-            </li>
-            <li class="links__item" @click="changeMenu()">
-                <RouterLink class="link" :to="{name: 'upcomingGames'}">upcoming games</RouterLink>
-            </li>
-            <li class="links__item" @click="changeMenu()">
-                <RouterLink class="link" :to="{name: 'predictions'}">predictions</RouterLink>
-            </li>
-        </ul>
-    </nav>
-</div>
+    <div class="header">
+        <Menu class="icon" @click="changeMenu()"></Menu>
+        <nav class="nav" v-show="showMenu">
+            <div class="header">
+                <Cross class="icon" @click="changeMenu()"></Cross>
+            </div>
+            <ul class="links">
+                <li class="links__item" @click="changeMenu()">
+                    <RouterLink class="link" :to="{name: 'dashboard'}">dashboard</RouterLink>
+                </li>
+                <li class="links__item" @click="changeMenu()">
+                    <RouterLink class="link" :to="{name: 'upcomingGames'}">upcoming games</RouterLink>
+                </li>
+                <li class="links__item" @click="changeMenu()">
+                    <RouterLink class="link" :to="{name: 'predictions'}">predictions</RouterLink>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </template>
 
 <style scoped>

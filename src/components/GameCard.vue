@@ -3,9 +3,9 @@ const props = defineProps(['time', 'text', 'prediction', 'score']);
 </script>
 
 <template>
-<li class="game__card">
-    <div class="info">{{ props.time + " " + props.text + " " +props.score }}</div> <div class="prediction" v-if="props.prediction">{{ props.prediction }}</div>
-</li>
+    <li class="game__card">
+        <div class="info">{{ props.time + " " + props.text + " " +props.score }}</div> <div class="prediction" v-if="props.prediction">{{ props.prediction }}</div>
+    </li>
 </template>
 
 <style scoped>

@@ -11,8 +11,8 @@ import Nav from './components/Nav.vue';
 </template>
 
 <style scoped>
-  .main{
-    padding: 0 1em;
-  }
+.main{
+  padding: 0 1em;
+}
 </style>
 
