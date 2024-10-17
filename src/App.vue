@@ -5,6 +5,14 @@ import Nav from './components/Nav.vue';
 
 <template>
   <Nav></Nav>
-  <RouterView />
+  <div class="main">
+    <RouterView />
+  </div>
 </template>
+
+<style scoped>
+  .main{
+    padding: 0 1em;
+  }
+</style>
 

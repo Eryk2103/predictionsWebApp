@@ -1,6 +1,6 @@
-import Dashboard from '@/views/Dashboard.vue'
-import Predictions from '@/views/Predictions.vue'
-import UpcomingGames from '@/views/UpcomingGames.vue'
+import Dashboard from '@/views/DashboardView.vue'
+import Predictions from '@/views/PredictionsView.vue'
+import UpcomingGames from '@/views/UpcomingGamesView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
