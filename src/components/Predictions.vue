@@ -1,6 +1,7 @@
 <script setup>
 import GameCard from './GameCard.vue';
 </script>
+
 <template>
     <ul>
         <li>
